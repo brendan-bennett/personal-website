@@ -4,7 +4,7 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -16,48 +16,34 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio template!
+        Welcome!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          Hi! I'm Brendan—a software engineer based in New York City. 
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
+          I graduated from the University of Virginia with degrees in Computer Science and Statistics.
+        </p>
+        <p>
+          For the past two years, I've been working at Moody's in various engineering roles, most recently on the {""}
           <a
             target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
+            href="https://news.microsoft.com/2023/06/29/moodys-and-microsoft-develop-enhanced-risk-data-analytics-research-and-collaboration-solutions-powered-by-generative-ai/"
           >
-            more
+            Copilot team
           </a>
           .
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          I spend most of my time trying to learn and apply new things. Currently, I'm interested in machine learning, quant trading, value investing, predictative sports modeling, and psychology. 
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+        In my free time, I enjoy reading, live music, traveling, and spending time with friends. 
         </p>
+
         <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+        If you’re working on something interesting or just want to connect, feel free to reach out!
         </p>
       </div>
     </section>
