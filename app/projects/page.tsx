@@ -12,7 +12,7 @@ export default function Projects() {
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
       <div>
-        {/* {projects.map((project, index) => (
+        {projects.map((project, index) => (
           <Link
             key={index}
             href={project.url}
@@ -27,14 +27,7 @@ export default function Projects() {
               </p>
             </div>
           </Link>
-        ))} */}
-         <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-2">
-              <h2 className="text-black dark:text-white">{projects[0].title}</h2>
-              <p className="text-neutral-600 dark:text-neutral-400 tracking-tight">
-                {projects[0].description}
-              </p>
-            </div>
-
+        ))}
       </div>
     </section>
   );
