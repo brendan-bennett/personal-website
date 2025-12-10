@@ -11,7 +11,7 @@ export default function Resume() {
       />
       <div className="text-neutral-600 dark:text-neutral-400 tracking-tight text-center">
         <a href="/BrendanBennettResume.pdf" download>
-          Download PDF here.
+          Click here to download.
         </a>
       </div>
     </section>
