@@ -20,23 +20,20 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Hi! I'm Brendan, a software engineer based in New York City. 
+          I'm Brendan, a software engineer based in New York City. 
         </p>
         <p>
           I graduated from the University of Virginia with degrees in Computer Science and Applied Statistics in 2023.
         </p>
         <p>
-          For the past ~2.5 years, I've been working at Moody's in various engineering roles, most recently on the New Frontiers team, which is developing PoC agentic workflows tailored to prospective client needs in the private credit space. 
+          For the past ~2.5 years, I've been working at Moody's in various engineering roles, most recently on the New Frontiers team, which is developing agentic workflows for prospective clients in private credit. 
         </p>
         <p>
           I try to carve out time to learn and apply new things; right now, I'm reading about machine learning and value investing. 
         </p>
-        <p>
-        In my free time, I enjoy reading, going to concerts, traveling, and spending time with friends. 
-        </p>
 
         <p>
-        If you’re working on something interesting or just want to connect, feel free to reach out!
+        If you’re working on something interesting or just want to connect, feel free to reach out.
         </p>
       </div>
     </section>
